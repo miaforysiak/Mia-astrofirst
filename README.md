@@ -16,24 +16,18 @@ this one. You will have to:
  * Commit the changes (use 'git commit')
  * Push the changes back to GitHub (use 'git push')
 
-2. Make sure you can use your product. If the directory of the root
-directory of your product is called , then your shell will have to have:
-
- * /bin added to its /opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin environmental variable, and
- * /python added to its  environmental variable.
-
-This should happen in your .bashrc file (assuming you are using the
-bash shell. If this is done correctly, you should be able to run
 2. Make sure you can use your product. If the directory of 
-the root
-directory of your product is called $PRODUCT_DIR, then your 
+the root directory of your product is called $PRODUCT_DIR, then your 
 shell will have to have:
 
  * $PRODUCT_DIR/bin added to its $PATH environmental 
 variable, and
  * $PRODUCT_DIR/python added to its $PYTHONPATH 
-environmental variable.example_script from the command line without 
-error.
+environmental variable.
+
+This should happen in your .bashrc file (assuming you are using the
+bash shell. If this is done correctly, you should be able to run
+"example_script" from the command line without error.
 
 3. Find, read in, and plot information in an astronomical data file,
 within the Jupyter environment. You will use data from the MaNGA
